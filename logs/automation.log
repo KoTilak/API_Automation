@@ -1,0 +1,399 @@
+2026-10-27 06:50:46,618 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:50:47,920 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=200
+2026-10-27 06:50:47,926 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:50:48,934 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=400
+2026-10-27 06:50:48,940 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:50:49,926 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=409
+2026-10-27 06:50:49,932 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:50:50,904 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:50:51,048 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:50:52,003 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=422
+2026-10-27 06:50:52,010 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:50:53,072 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:50:53,076 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:50:54,014 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=200
+2026-10-27 06:50:54,018 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:50:55,004 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=404
+2026-10-27 06:50:55,011 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:50:55,922 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=422
+2026-10-27 06:50:55,927 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 26}
+2026-10-27 06:50:56,882 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=200
+2026-10-27 06:50:56,886 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 25}
+2026-10-27 06:50:57,819 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=403
+2026-10-27 06:50:57,825 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={}
+2026-10-27 06:50:58,813 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=422
+2026-10-27 06:50:58,821 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:50:59,786 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=200
+2026-10-27 06:50:59,791 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:51:00,727 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:51:00,730 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 2633}
+2026-10-27 06:51:01,685 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=200
+2026-10-27 06:51:01,697 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 26330}
+2026-10-27 06:51:02,662 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=404
+2026-10-27 06:51:02,669 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 2637, 'page_size': 10, 'page': 1}
+2026-10-27 06:51:03,684 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=200
+2026-10-27 06:51:03,689 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 26380, 'page_size': 10, 'page': 1}
+2026-10-27 06:51:06,252 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=404
+2026-10-27 06:51:06,256 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'asc'}
+2026-10-27 06:51:07,307 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:51:07,310 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:51:08,286 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:51:08,292 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 0, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:51:09,414 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:51:09,423 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 0, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:51:10,366 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:51:10,371 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL ', 'page': 1, 'page_size': 10, 'sort_by': 'created_date'}
+2026-10-27 06:51:11,287 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:53:16,985 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:53:17,934 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:53:18,045 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:53:19,127 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:53:19,131 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:53:20,084 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:53:20,101 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:53:21,041 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:53:21,064 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:53:21,967 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:53:21,975 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:53:22,960 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:53:22,967 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:53:23,887 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:53:23,909 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:53:24,888 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:53:24,900 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:53:25,852 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:53:25,861 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 26}
+2026-10-27 06:53:26,804 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:53:26,831 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 25}
+2026-10-27 06:53:27,919 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:53:27,926 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={}
+2026-10-27 06:53:28,881 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:53:28,896 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:53:29,839 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:53:29,864 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:53:30,764 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:53:30,769 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 2633}
+2026-10-27 06:53:31,669 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=401
+2026-10-27 06:53:31,705 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 26330}
+2026-10-27 06:53:32,610 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=401
+2026-10-27 06:53:32,618 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 2637, 'page_size': 10, 'page': 1}
+2026-10-27 06:53:33,530 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=401
+2026-10-27 06:53:33,559 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 26380, 'page_size': 10, 'page': 1}
+2026-10-27 06:53:34,643 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=401
+2026-10-27 06:53:34,649 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'asc'}
+2026-10-27 06:53:35,604 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:53:35,626 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:53:36,552 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:53:36,556 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 0, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:53:37,519 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:53:37,529 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 0, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:53:38,481 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:53:38,490 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL ', 'page': 1, 'page_size': 10, 'sort_by': 'created_date'}
+2026-10-27 06:53:39,441 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:53:43,355 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:53:44,398 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:53:44,499 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:53:45,508 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:53:45,523 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:53:46,483 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:53:46,491 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:53:47,452 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:53:47,465 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:53:48,374 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:53:48,380 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:53:49,268 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:53:49,275 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:53:50,322 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:53:50,327 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:53:51,271 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:53:51,275 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:53:52,240 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:53:52,248 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 26}
+2026-10-27 06:53:53,204 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:53:53,217 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 25}
+2026-10-27 06:53:54,323 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:53:54,332 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={}
+2026-10-27 06:53:55,280 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:53:55,286 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:53:56,255 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:53:56,262 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:53:57,208 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:53:57,213 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 2633}
+2026-10-27 06:53:58,127 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=401
+2026-10-27 06:53:58,132 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 26330}
+2026-10-27 06:53:59,117 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=401
+2026-10-27 06:53:59,129 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 2637, 'page_size': 10, 'page': 1}
+2026-10-27 06:54:00,028 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=401
+2026-10-27 06:54:00,087 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 26380, 'page_size': 10, 'page': 1}
+2026-10-27 06:54:01,039 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=401
+2026-10-27 06:54:01,050 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'asc'}
+2026-10-27 06:54:01,992 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:54:01,999 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:54:02,960 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:54:02,969 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 0, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:54:03,927 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:54:03,939 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 0, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:54:04,880 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:54:04,888 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL ', 'page': 1, 'page_size': 10, 'sort_by': 'created_date'}
+2026-10-27 06:54:05,773 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:55:15,631 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:55:16,697 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=200
+2026-10-27 06:55:16,704 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:55:17,697 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=400
+2026-10-27 06:55:17,707 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:55:18,747 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=409
+2026-10-27 06:55:18,755 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:55:19,763 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:55:19,885 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:55:21,063 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=422
+2026-10-27 06:55:21,069 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:55:22,083 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:55:22,090 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:55:23,037 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=200
+2026-10-27 06:55:23,041 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:55:24,073 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=404
+2026-10-27 06:55:24,082 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:55:25,017 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=422
+2026-10-27 06:55:25,021 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 26}
+2026-10-27 06:55:25,970 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=200
+2026-10-27 06:55:25,974 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 25}
+2026-10-27 06:55:26,900 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=403
+2026-10-27 06:55:26,904 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={}
+2026-10-27 06:55:27,927 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=422
+2026-10-27 06:55:27,932 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:55:48,992 - clients.api_client - ERROR - GET request failed: endpoint=/core-services/v1/project
+Traceback (most recent call last):
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+    ...<2 lines>...
+    ) from e
+urllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='aisdlc-uat.deloitte.com', port=443) at 0x18f4b1bca50>, 'Connection to aisdlc-uat.deloitte.com timed out. (connect timeout=30)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='aisdlc-uat.deloitte.com', port=443): Max retries exceeded with url: /core-services/v1/project (Caused by ConnectTimeoutError(<HTTPSConnection(host='aisdlc-uat.deloitte.com', port=443) at 0x18f4b1bca50>, 'Connection to aisdlc-uat.deloitte.com timed out. (connect timeout=30)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\clients\api_client.py", line 49, in get
+    response = self.session.get(
+        url,
+    ...<2 lines>...
+        timeout=self.timeout
+    )
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\kotilak\PycharmProjects\APIAutomation\.venv\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='aisdlc-uat.deloitte.com', port=443): Max retries exceeded with url: /core-services/v1/project (Caused by ConnectTimeoutError(<HTTPSConnection(host='aisdlc-uat.deloitte.com', port=443) at 0x18f4b1bca50>, 'Connection to aisdlc-uat.deloitte.com timed out. (connect timeout=30)'))
+2026-10-27 06:55:49,154 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:55:50,076 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:55:50,082 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 2633}
+2026-10-27 06:55:51,090 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=200
+2026-10-27 06:55:51,094 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 26330}
+2026-10-27 06:55:52,112 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=404
+2026-10-27 06:55:52,116 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 2637, 'page_size': 10, 'page': 1}
+2026-10-27 06:55:53,074 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=200
+2026-10-27 06:55:53,078 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 26380, 'page_size': 10, 'page': 1}
+2026-10-27 06:55:53,992 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=404
+2026-10-27 06:55:54,000 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'asc'}
+2026-10-27 06:55:54,983 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:55:54,987 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:55:55,942 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:55:55,950 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 0, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:55:56,886 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:55:56,891 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 0, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:55:57,849 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:55:57,857 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL ', 'page': 1, 'page_size': 10, 'sort_by': 'created_date'}
+2026-10-27 06:55:58,815 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:57:11,054 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:57:12,051 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=200
+2026-10-27 06:57:12,060 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:57:13,030 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=400
+2026-10-27 06:57:13,038 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:57:13,980 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=409
+2026-10-27 06:57:13,986 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:57:14,921 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:57:15,034 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:57:16,015 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=422
+2026-10-27 06:57:16,023 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:57:16,953 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:57:16,957 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:57:17,918 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=200
+2026-10-27 06:57:17,921 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:57:18,911 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=404
+2026-10-27 06:57:18,920 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:57:19,835 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=422
+2026-10-27 06:57:19,841 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 26}
+2026-10-27 06:57:20,787 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=200
+2026-10-27 06:57:20,793 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 25}
+2026-10-27 06:57:21,733 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=403
+2026-10-27 06:57:21,737 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={}
+2026-10-27 06:57:22,769 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=422
+2026-10-27 06:57:22,774 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:57:23,816 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=200
+2026-10-27 06:57:23,824 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:57:25,754 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:57:25,758 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 2633}
+2026-10-27 06:57:26,902 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=200
+2026-10-27 06:57:26,912 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 26330}
+2026-10-27 06:57:27,969 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=404
+2026-10-27 06:57:27,972 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 2637, 'page_size': 10, 'page': 1}
+2026-10-27 06:57:28,919 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=200
+2026-10-27 06:57:28,930 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 26380, 'page_size': 10, 'page': 1}
+2026-10-27 06:57:29,837 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=404
+2026-10-27 06:57:29,843 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'asc'}
+2026-10-27 06:57:30,846 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:57:30,854 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:57:31,761 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:57:31,764 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 0, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:57:32,749 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:57:32,752 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 0, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:57:33,689 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:57:33,693 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL ', 'page': 1, 'page_size': 10, 'sort_by': 'created_date'}
+2026-10-27 06:57:34,811 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:57:54,489 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:57:55,709 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:57:55,803 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:57:56,692 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:57:56,700 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:57:57,630 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=401
+2026-10-27 06:57:57,638 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:57:58,558 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:57:58,564 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:57:59,590 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:57:59,601 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:58:00,537 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=401
+2026-10-27 06:58:00,545 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:58:01,438 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:58:01,444 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:58:02,386 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:58:02,392 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:58:04,031 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=401
+2026-10-27 06:58:04,046 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 26}
+2026-10-27 06:58:04,986 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:58:04,996 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 25}
+2026-10-27 06:58:06,010 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:58:06,020 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={}
+2026-10-27 06:58:06,936 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=401
+2026-10-27 06:58:06,947 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:58:07,921 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:58:07,927 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:58:08,849 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:58:08,856 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 2633}
+2026-10-27 06:58:09,750 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=401
+2026-10-27 06:58:09,758 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 26330}
+2026-10-27 06:58:10,797 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=401
+2026-10-27 06:58:10,803 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 2637, 'page_size': 10, 'page': 1}
+2026-10-27 06:58:11,727 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=401
+2026-10-27 06:58:11,733 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 26380, 'page_size': 10, 'page': 1}
+2026-10-27 06:58:12,636 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=401
+2026-10-27 06:58:12,644 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'asc'}
+2026-10-27 06:58:13,573 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:58:13,589 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:58:14,499 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:58:14,503 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 0, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:58:15,426 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:58:15,435 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 0, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:58:16,339 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:58:16,343 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL ', 'page': 1, 'page_size': 10, 'sort_by': 'created_date'}
+2026-10-27 06:58:17,250 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=401
+2026-10-27 06:58:53,096 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:58:54,066 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=200
+2026-10-27 06:58:54,070 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:58:55,128 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=400
+2026-10-27 06:58:55,132 - clients.api_client - INFO - POST request: endpoint=/qe/test-suite/add-testcases, params=None
+2026-10-27 06:58:56,388 - clients.api_client - INFO - POST response: endpoint=/qe/test-suite/add-testcases, status_code=409
+2026-10-27 06:58:56,391 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:58:57,940 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:58:58,028 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:58:58,942 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=422
+2026-10-27 06:58:58,948 - clients.api_client - INFO - POST request: endpoint=/qe/test_suite/create, params=None
+2026-10-27 06:59:00,356 - clients.api_client - INFO - POST response: endpoint=/qe/test_suite/create, status_code=400
+2026-10-27 06:59:00,359 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:59:01,488 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=200
+2026-10-27 06:59:01,494 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:59:02,879 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=404
+2026-10-27 06:59:02,885 - clients.api_client - INFO - DELETE request: endpoint=/qe/test-suite/delete-testcase, params=None
+2026-10-27 06:59:03,945 - clients.api_client - INFO - DELETE response: endpoint=/qe/test-suite/delete-testcase, status_code=422
+2026-10-27 06:59:03,949 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 26}
+2026-10-27 06:59:05,197 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=200
+2026-10-27 06:59:05,200 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={'project_id': 25}
+2026-10-27 06:59:06,157 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=403
+2026-10-27 06:59:06,161 - clients.api_client - INFO - GET request: endpoint=/qe/test_suite/project_insights, params={}
+2026-10-27 06:59:07,119 - clients.api_client - INFO - GET response: endpoint=/qe/test_suite/project_insights, status_code=422
+2026-10-27 06:59:07,133 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:59:08,148 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=200
+2026-10-27 06:59:08,158 - clients.api_client - INFO - GET request: endpoint=/core-services/v1/project, params=None
+2026-10-27 06:59:09,041 - clients.api_client - INFO - GET response: endpoint=/core-services/v1/project, status_code=401
+2026-10-27 06:59:09,044 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 2633}
+2026-10-27 06:59:10,037 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=200
+2026-10-27 06:59:10,041 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcase-details, params={'project_id': 26, 'test_case_id': 'TC_0385', 'test_suite_id': 26330}
+2026-10-27 06:59:10,970 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcase-details, status_code=404
+2026-10-27 06:59:10,976 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 2637, 'page_size': 10, 'page': 1}
+2026-10-27 06:59:11,944 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=200
+2026-10-27 06:59:11,947 - clients.api_client - INFO - GET request: endpoint=/qe/test-suite/testcases, params={'project_id': 26, 'user_id': 'kotilak@deloitte.com', 'test_suite_id': 26380, 'page_size': 10, 'page': 1}
+2026-10-27 06:59:12,910 - clients.api_client - INFO - GET response: endpoint=/qe/test-suite/testcases, status_code=404
+2026-10-27 06:59:12,916 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'asc'}
+2026-10-27 06:59:13,997 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:59:14,001 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:59:14,958 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=200
+2026-10-27 06:59:14,964 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 1, 'page_size': 0, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:59:15,929 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:59:15,932 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL', 'page': 0, 'page_size': 10, 'sort_by': 'created_date', 'sort_order': 'desc'}
+2026-10-27 06:59:16,930 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
+2026-10-27 06:59:16,937 - clients.api_client - INFO - GET request: endpoint=/qe/project/test_suites/v2, params={'status_filter': 'ALL ', 'page': 1, 'page_size': 10, 'sort_by': 'created_date'}
+2026-10-27 06:59:17,925 - clients.api_client - INFO - GET response: endpoint=/qe/project/test_suites/v2, status_code=422
